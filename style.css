@@ -1,0 +1,348 @@
+body {
+    margin: auto;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+#social-media {
+    background: #7652DB;
+    /* width: 620px;
+    height: 300px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 5px 0px #000;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+}
+
+
+#social-media p {
+    margin: 0px;
+}
+
+#social-media .text-top {
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+
+#social-media .text-top-2 {
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.text-bottom {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.gold {
+    color: #FFC96A;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+#social-media img {
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#accounts-and-platforms {
+    background-color: white;
+    /* width: 300px;
+    height: 300px; */
+    overflow: hidden;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#accounts-and-platforms img {
+    height: 6vh;
+    width: 15vw;
+    padding: 20px 0px 0px 100px;
+    
+    
+}
+
+#accounts-and-platforms p {
+    padding-left: 30px;
+    margin-top: 50px;
+    letter-spacing: -2px;
+    line-height: 30px;
+    padding-right: 10px;
+    
+    
+}
+
+#posting-schedule {
+    /* width: 300px;
+    height: 300px; */
+    background-color: #FFCC69;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px #000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#posting-schedule p {
+    margin: 0px;
+    padding: 10px 10px 15px 30px;
+    display: flex;
+    line-height: 30px;
+    text-align: left;
+}
+
+#posting-schedule img {
+    width: 9vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px;
+}
+
+#schedule {
+    /* width: 300px;
+    height: 620px; */
+    background-color: #DCD1FC;
+    border-radius: 10px;
+    font-family: "DM Sans",sans-serif;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0px #000;
+}
+
+#schedule img {
+    width: 300px;
+    padding: 10px 0px 0px 20px;
+    margin-top: 0px;
+}
+
+#schedule .text-top {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+
+#schedule .text-bottom {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+    letter-spacing: -1.2px;
+}
+
+#grow-followers {
+    /* width: 620px;
+    height: 300px; */
+    background-color: #7651DB;
+    border-radius: 10px;
+    font-family: "DM sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    box-shadow: 0 0 5px 0px #000;
+}
+
+#grow-followers img {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#grow-followers p {
+    font-weight: 400;
+    color: white;
+    font-size: 2.5rem;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+
+#audience-growth {
+    /* width: 300px;
+    height: 300px; */
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: "DM Sans",sans-serif;
+    box-shadow: 0 0 5px 0px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+#audience-growth img {
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+
+}
+
+.big {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#audience-growth p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#schedule-content {
+    /* width: 300px;
+    height: 450px; */
+    background-color: #FAEEE2;
+    border-radius: 10px;
+    font-family: "DM sans", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    box-shadow: 0 0 5px 0px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: -2px;
+    line-height: 40px;
+}
+
+#schedule-content p {
+    padding-left: 40px;
+    margin-bottom: 0px;
+
+}
+
+#schedule-content img {
+    width: 10vw;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.quicker {
+    font-style: italic;
+    color: #7754D5;
+}
+
+#ai-content {
+    /* width: 300px;
+    height: 450px; */
+    background-color: #FFCC69;
+    border-radius: 10px;
+    font-family: "DM sans",sans-serif;
+    font-weight: 500;
+    font-size: 3.3rem;
+    box-shadow: 0 0 5px 0px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -2px;
+    line-height: 45px;
+}
+
+#ai-content p {
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ai-content img {
+    width: 10vw;
+    height: 19vh;
+    padding: 20px 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-auto-rows: repeat(4, auto);
+    gap: 1.5rem;
+    
+
+}
+
+.block-social {
+    grid-column: 2 / 4;
+    grid-row: span 2;
+}
+
+.block-schedule {
+    grid-column: 4 / 4;
+    grid-row: 1;
+}
+
+.block-accounts {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    
+}
+
+.block-posting {
+    grid-column: 3;
+    grid-row: span 2;
+    
+}
+
+.block-grow {
+    grid-column: 3 / 5;
+    grid-row: span 2;
+    
+}
+
+.block-audience {
+    grid-column: 2;
+    grid-row: span 2;
+    
+}
+
+.block-create {
+    grid-column: 1 / 1;
+    grid-row: span 2
+}
+
+.block-ai {
+    grid-column: 1;
+    grid-row: span 3;
+}
+
+/* .inGrid {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
